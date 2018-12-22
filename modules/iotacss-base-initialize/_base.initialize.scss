@@ -1,3 +1,5 @@
+/*! purgecss start ignore */
+
 /**
  * A modern, elegant and minimal combination of Normalize.css and
  * CSS Reset. Compatible with IE10+.
@@ -57,7 +59,7 @@ fieldset, legend
  */
 
 * {
-  
+
   &,
   &:before,
   &:after {
@@ -84,7 +86,7 @@ main { display: block }
  */
 
 @if ($iota-base-initialize-heading-size == true) {
-  
+
   h1, h2, h3, h4, h5, h6 {
     font-size: inherit
   }
@@ -142,7 +144,7 @@ a {
   /**
    * Remove margin from form elements
    */
-  
+
   input,
   select,
   textarea { margin: 0 }
@@ -224,3 +226,4 @@ a {
   }
 
 }
+/*! purgecss end ignore */
