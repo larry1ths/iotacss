@@ -67,3 +67,7 @@ $iota-global-breakpoint-separator: \@ !default;
 // Defines the default delimiter for Size, Push and Pull utilities
 
 $iota-global-delimiter: \/ !default;
+
+
+// Defines if hover state will render on every Utility
+$iota-global-hover: true !default;

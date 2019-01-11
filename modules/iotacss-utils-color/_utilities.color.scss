@@ -11,6 +11,8 @@ $iota-utils-color-namespace : 'color-' !default;
 
 $iota-utils-color-names     : () !default;
 
+$iota-utils-color-hover: $iota-global-hover;
+
 
 
 
@@ -24,9 +26,14 @@ $iota-utils-color-var-color: $iota-global-utilities-namespace + $iota-utils-colo
 // Color Utilities
 
 @each $color-name, $color-value in $iota-utils-color-names {
-  
+
   .#{$iota-utils-color-var-color + $color-name} {
     color: #{$color-value} !important;
+  }
+  @if $iota-utils-color-hover == true {
+    .#{$iota-utils-color-var-color + $color-name}:hover {
+      color: #{$color-value} !important;
+    }
   }
 
 }
