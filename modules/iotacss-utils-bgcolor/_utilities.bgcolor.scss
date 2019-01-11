@@ -32,7 +32,7 @@ $iota-utils-bgcolor-var: $iota-global-utilities-namespace + $iota-utils-bgcolor-
   }
   @if $iota-utils-bgcolor-hover == true {
     .hover\:#{$iota-utils-bgcolor-var + $bgcolor-name}:hover {
-      background-color: #{$bgcolor-name} !important;
+      background-color: #{$bgcolor-value} !important;
     }
   }
 
