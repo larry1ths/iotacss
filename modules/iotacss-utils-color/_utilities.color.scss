@@ -31,7 +31,7 @@ $iota-utils-color-var-color: $iota-global-utilities-namespace + $iota-utils-colo
     color: #{$color-value} !important;
   }
   @if $iota-utils-color-hover == true {
-    .hover:#{$iota-utils-color-var-color + $color-name}:hover {
+    .hover\:#{$iota-utils-color-var-color + $color-name}:hover {
       color: #{$color-value} !important;
     }
   }
